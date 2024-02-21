@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.row {
+    background-color: black;
+    height: 150px;
+}
+
+.col1 {
+    margin-top: 20px;
+    margin-left: auto;
+    max-width: 100px;
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10%;
+}
+
+.col1 i{
+    padding-top: 10px;
+}
+
+.col {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10%;
+    font-size: 65px;
+    text-align: center;
+}
